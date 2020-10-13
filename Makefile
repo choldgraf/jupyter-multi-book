@@ -23,5 +23,5 @@ all: html
 	jupyter-nbconvert books/RISE.ipynb --output-dir _build/html/ --to slides
 	jupyter-book build books/otherbook
 	rm -rf _build/html/other-book
-	mv books/otherbook/_build/html _build/html/other-book
+	mv books/otherbook/_build/html _build/html/internal-book
 
