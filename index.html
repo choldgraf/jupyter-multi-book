@@ -124,7 +124,14 @@
                 
   <div class="section" id="jupyter-multi-book">
 <h1>Jupyter Multi Book<a class="headerlink" href="#jupyter-multi-book" title="Permalink to this headline">¶</a></h1>
-<p>A demonstration of embedding Jupyter Books and RISE slideshows into a Sphinx website.</p>
+<p>A demonstration of embedding Jupyter Books and RISE slideshows into a Sphinx website. Each of the pages above <strong>embeds</strong> book content via an <code class="docutils literal notranslate"><span class="pre">&lt;iframe&gt;</span></code>. For example, with code like this:</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span>```{raw} html
+<span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;book&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;internal-book&quot;</span> <span class="p">/&gt;</span>
+```
+</pre></div>
+</div>
+<p>It uses <a class="reference external" href="https://github.com/choldgraf/jupyter-multi-book/blob/main/Makefile">this <code class="docutils literal notranslate"><span class="pre">Makefile</span></code> to build the site</a> and <a class="reference external" href="https://github.com/choldgraf/jupyter-multi-book/blob/main/_static/custom.css">this <code class="docutils literal notranslate"><span class="pre">custom.css</span></code> file to control the layout</a>.</p>
+<p>Click the links above to see how things look.</p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="book-internal.html">An internal book</a></li>
