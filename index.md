@@ -8,7 +8,7 @@ A demonstration of embedding Jupyter Books and RISE slideshows into a Sphinx web
 ```
 ````
 
-It uses [this `Makefile` to build the site](https://github.com/choldgraf/jupyter-multi-book/blob/main/Makefile) and [this `custom.css` file to control the layout](https://github.com/choldgraf/jupyter-multi-book/blob/main/_static/custom.css).
+It uses [this `Makefile` to build the site](https://github.com/choldgraf/jupyter-multi-book/blob/main/Makefile) and [this `custom.css` file to control the layout](https://github.com/choldgraf/jupyter-multi-book/blob/main/_static/custom.css). It uses the [PyData Sphinx Theme](https://pydata-sphinx-theme.readthedocs.io/) as the base theme.
 
 Click the links above to see how things look.
 
